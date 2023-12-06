@@ -11,6 +11,7 @@ doesKeyExist(obj1, 'name'); // => false
 ***********************************************************************/
 
 function doesKeyExist(obj, key) {
+  return Object.keys(obj).includes(key);
   // Your code here
 }
 
